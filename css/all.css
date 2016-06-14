@@ -1,0 +1,114 @@
+/* CSS Document */
+*{margin: 0;padding: 0;}
+body{
+	background:rgb(236,236,236);
+	width:1348px;
+	margin: 0 auto;
+	font-family: "微软雅黑";
+}
+/*min-width横滚轴必须*/
+
+a{text-decoration: none;}
+ul,li,ol{list-style: none;}
+
+nav ul{float: right;position: relative;	margin-left: 80px;
+	margin-right: 50px;}
+nav li{float: left;font-size: 20px;width: 130px;text-align: center;overflow: hidden;}
+nav span{float: left;margin-left: 5px;font-size: 33px;}
+nav img{float: left;margin-left: 30px;}
+
+/*对布局进行处理、居中、延伸*/
+nav,section,footer{
+	margin:0 auto;
+	}
+
+nav{
+	position: absolute;
+	top: 0;
+	height: 92px;
+	line-height:88px;
+	width: 1348px;
+	background-color: rgba(98,98,98,0.4);/* IE9、标准浏览器、IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂 */
+	overflow: hidden;
+	overflow: hidden;
+	z-index: 1;
+	}
+	
+nav *{
+  color: #FFFFFF;
+}
+
+
+/*透明兼容*/
+@media \0screen\,screen\9 { /*只支持IE6、7、8 */
+	  nav{
+	    background-color:#626262;
+	    filter:Alpha(opacity=0.4);
+	    position:static;  /*IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+	    *zoom:1;  /*激活IE6、7的haslayout属性，让它读懂Alpha */
+
+
+	  }
+	  nav *{
+	    position: relative; /*设置子元素为相对定位，可让子元素不继承Alpha值 */
+	  }  
+}
+
+
+.slipper{
+	height:772px;
+	background-color:#69ADB8;
+	background:url(../pic/2.jpg) no-repeat #69ADB8;
+	/*margin-top: -92px;*/
+	}
+
+footer{
+	height: 143px;
+	background-color:#1B1B1B;	
+	font-size: 24px;
+	color: #FFFFFF;
+	line-height: 143px;
+	text-align: center;
+	}
+
+.move{
+	position: absolute;
+    border-top: 4px solid #E53C3C;
+    left: 33.4%;
+    top: 88px;
+     -webkit-transition: left 0.3s ease-in-out;
+    -moz-transition: left 0.3s ease-in-out;
+    transition: left 0.3s ease-in-out;
+}
+
+nav>ul>li:nth-child(1):hover~.move{
+    left: 0;
+}
+nav>ul>li:nth-child(2):hover~.move{
+    left: 16.7%;
+}
+nav>ul>li:nth-child(3):hover~.move{
+    left: 33.4%;
+}
+nav>ul>li:nth-child(4):hover~.move{
+    left: 50.1%;
+}
+nav>ul>li:nth-child(5):hover~.move{
+    left: 66.8%;
+}
+nav>ul>li:nth-child(6):hover~.move{
+    left: 83.5%;
+}
+
+nav li {
+	float: left;
+    font-size: 20px;
+    width: 130px;
+    text-align: center;
+}
+a:hover{
+color: red;
+}
+
+/*以上是各页面都有的*/
+

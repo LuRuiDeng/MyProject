@@ -1,0 +1,142 @@
+
+/* CSS Document */
+
+
+.move{
+
+    left: 33.4%;
+
+}
+
+
+
+.member-content{ 
+		/*height: 1210px;	*/
+	height: 1150px;
+	background-color:#AAA;
+	}
+
+
+/*menber-slipper*/
+.mem-slipper{
+	height: 650px;
+	background-color:#69ADB8;
+	background:url(../pic/1.jpg) no-repeat #69ADB8;
+	margin-top: -92px;
+	background-size:1348px;
+	}
+
+.mem-slipper>p{
+	color: #fff;
+	text-align: center;
+	padding-top: 300px;
+	padding-left: 180px;
+	font-size: 50px;
+}
+
+/*menber-content*/
+#mem-select,.member-content>p{
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	font-size: 26px;
+}
+
+.member-content>p{
+	padding-top: 50px;
+	padding-left:40px; 
+}
+ #mem-select>li{
+	display: inline-block;
+	font-size: 26px;
+	margin: 60px 0 30px 40px;
+	cursor:hand;
+ }
+ #mem-select>li:hover{
+ 	color: #d00303;
+ }
+
+
+ .mem-active{
+ 	color: #d00303;
+ }
+
+
+ .wrap{
+	height: 930px;
+	
+	overflow: hidden;
+	position: relative;
+}
+
+ #mem-select-content{
+  	position: absolute;
+  	left: 0;
+  	width:5000px;
+  }
+ #mem-select-content>li{
+  		width: 1348px;
+ 		float: left;
+  }
+ 
+.content_1{
+	background: #d2d2d2;
+	width: 400px;
+	height: 180px;
+	position: relative;
+	font-weight: bold;
+	border-radius: 10px;
+	margin:40px 0 0 200px;
+}
+.content_1:nth-child(1){
+	margin: 40px 0 0 250px;
+}
+.content_1 span{
+	padding: 20px 0 0 30px;
+	font-size: 26px;
+}
+.content_1 p{
+	line-height: 30px;
+	padding-top: 20px;
+	font-size: 20px;
+	padding-left:30px; 
+}
+.content_1 img{
+	position: absolute;
+	height: 180px;
+	left: 310px;
+	top: 0;
+}
+
+
+.content_2{
+	background: #d2d2d2;
+	width: 400px;
+	height: 180px;
+	position: relative;
+	font-weight: bold;
+	border-radius: 10px;
+	margin:40px 0 0 680px;
+}
+.content_2:nth-child(2){
+	margin: 40px 0 0 740px;
+}
+
+.content_2 span{
+	padding: 20px 0 0 280px;
+	font-size: 26px;
+}
+.content_2 p{
+	line-height: 30px;
+	padding-top: 20px;
+	font-size: 20px;
+	padding-left:190px; 
+}
+.content_2 img{
+	position: absolute;
+	height: 180px;
+	left: -90px;
+	top: 0;
+}
+
+

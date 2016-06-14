@@ -1,0 +1,250 @@
+
+
+/* CSS Document */
+/*邓瑞鹿*/
+.join-content{ 
+	height: 1120px;	
+	background-color:#BCBCBC;	
+
+}
+body{
+	overflow-x:hidden;
+	
+}
+.move{
+  position: absolute;
+    border-top: 4px solid #E53C3C;
+   left:66.8%;
+    top: 88px;
+     -webkit-transition: left 0.3s ease-in-out;
+    -moz-transition: left 0.3s ease-in-out;
+    transition: left 0.3s ease-in-out;
+    boder-boxing:border-box;
+}
+nav li {
+  float: left;
+    font-size: 20px;
+    width: 130px;
+    text-align: center;
+
+}
+
+nav ul li:nth-child(1):hover~.move{
+    left: 0;
+}
+nav ul li:nth-child(2):hover~.move{
+    left: 25%;
+
+}
+nav>ul>li:nth-child(3):hover~.move{
+    left: 50%;
+}
+nav>ul>li:nth-child(4):hover~.move{
+    left: 75%;
+}
+
+a:hover{
+color: red;
+}
+
+/*a:hover{
+  text-decoration: underline;
+}*/
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/*总盒子*/
+.main-box{
+	height: 1120px;	
+	background-color:#BCBCBC;
+	position: relative;
+	margin: 0 auto;	
+
+}
+/*表格*/
+.Flow-frame{
+	height: 1120px;
+	width: 100%;
+	position: relative;
+	left: 50%;
+	margin: 0 0 0 -50%;
+
+}
+.Flow-frame1{
+	height: 120px;
+	width: 550px;
+	left: 50%;
+	margin: 0 0 0 150px;
+
+}
+.Flow-chart{
+	height: 1120px;
+	width: 500px;
+	position: absolute;
+	left: 50%;
+	margin: 20px 0 0 -250px;
+
+}
+.join-img{
+	margin: -40px 0 0 -290px;
+	z-index: 1;
+}
+.Flow-chart1{
+	height: 200px;
+	width: 200px;
+	margin: 0;
+
+}
+.main-box h4{
+	text-align: center;
+	font-size: 36px;
+	font-family: 'Open-Sans';
+	color: #ffffff;
+   padding: 40px  0  0 0 ;
+
+}
+.purpose1,.talk1,.test1,.view1,.check1{
+	width: 530px;
+	height: 100px;
+	border-radius: 30px;
+	background-color: white;
+	padding: 3px 0 0 0;
+}
+.talk1{
+	width: 540px;
+}
+.purpose2,.talk2,.test2,.view2,.check2{
+	width: 520px;
+	height: 90px;
+	border-radius: 28px;
+	background-color: #f4b8b8;
+	margin: 4px 0 0 5px;
+	padding: 15px;/*修改里面的字*/
+	-webkit-box-sizing:border-box;/*将boder设置进盒子的范围*/
+	box-sizing:border-box;
+
+}
+.purpose1{
+	position: absolute;
+	width: 530px;
+	height: 100px;
+	margin: -920px  0 0 30px;
+	z-index: 4;
+}
+.purpose2{
+	background-color: rgb(255,220,192);
+	
+}
+.talk2{width: 530px;}
+.test2{
+background-color:#c3d19e;
+}
+.view2{
+	background-color: #a9dce0;
+}
+.check2{
+	background-color:#d4b2ee;
+}
+#purpose{
+	position: absolute;
+	width: 530px;
+	height: 100px;
+	left: 50%;
+	margin: 80px 0 0 0;
+}
+#talk{
+	position: absolute;
+	width: 530px;
+	height: 100px;
+	left: 50%;
+	margin: 280px 0 0 -560px;
+
+}
+#test{
+	position: absolute;
+	width: 530px;
+	height: 100px;
+	left: 50%;
+	margin: 480px 0 0 0;
+
+}
+#view{
+	position: absolute;
+	width: 530px;
+	height: 100px;
+	left: 50%;
+	margin: 685px 0 0 -560px;
+}
+#check{
+	position: absolute;
+	width: 530px;
+	height: 100px;
+	left: 50%;
+	margin: 885px 0 0 0;
+
+}
+.Flow-frame1 p{
+	font-size: 22px;
+	font-family:'Open-Sans';
+	color: #000000;
+	line-height: 30px; 
+	padding-left: 17px;
+	font-weight: bold;
+}
+#check2-p{
+
+	padding: 20px 0 0 17px;
+
+}
+/*ch-purpose1,.talk1,.test1,.view1,.check1*/
+.ch-purpose2,.ch-talk2,.ch-test2,.ch-view2,.ch-check2{
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	/*background-color: white;*/
+	margin: 32px 0 0 0;
+
+}
+.Flow-chart h2{
+	font-size: 48px;
+	font-family:'Open-Sans';/*楷体*/
+	color: #000000;
+	padding: 65px 0 0 16px;
+	text-align: center;
+	font-weight: bold;
+}
+.ch-talk2 h2{
+	padding: 50px 0 0 0;
+
+}
+.ch-test2 h2{
+	padding: 65px 9px 0 0 ;
+
+}
+.ch-view2 h2{
+	padding: 55px  0 0  49px ;
+}
+#ch-purpose{
+	margin-left: 30px;
+
+}
+#ch-talk{
+	position: absolute;
+	width: 180px;
+	height: 200px;
+	left: 50%;
+	margin: -25px 0 0 75px;
+
+}
+.ch-test2{
+	margin: 200px 0 0 0;
+
+}
+.ch-view2 {
+	margin: 0 0 0 295px;
+}
+.ch-check2{
+	margin: -15px 0 0 27px;
+}

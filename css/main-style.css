@@ -1,0 +1,518 @@
+/* CSS Document */
+
+
+.move{
+    left: 120%;
+}
+
+
+/*slipper样式*/
+
+.main_slipper{
+	height:652px;
+	background-color:#69ADB8;
+	position: relative;
+	width: 1348px;
+	overflow: hidden;
+}
+
+#main_content{
+	position: absolute;
+	z-index: 0;
+	width: 4050px;
+	left: 0;
+}
+#main_content>li{
+	float: left;
+}
+#main_content>li>img{
+	width: 1348px;
+	
+}
+#main_select>li{
+	position: absolute;
+	top: 300px;
+	display: block;
+	text-align: center;
+}
+
+
+
+.btn:hover{
+	background:rgba(0,0,0,0.5);
+}
+
+
+.btn{
+	/*display: none;*/
+	width: 50px;
+	height: 74px;	
+	background: rgb(197,197,197);
+	opacity: 0.4;
+	line-height: 74px;
+	cursor: pointer;
+	text-align: center;
+}
+.btn>i{font-size: 50px;	color: #FFF;
+}
+
+
+
+#main_select>li:nth-child(1){
+	left: 20px;
+}
+#main_select>li:nth-child(2){
+	right: 20px;
+}
+
+#main_select_2>li{
+	position: absolute;
+	top: 630px;
+	width: 10px;
+	height: 10px;
+	display: block;
+	border-radius: 50%;
+	border: 2px solid yellow;
+}
+#main_select_2>li:nth-child(1){
+	left: 650px;
+}
+#main_select_2>li:nth-child(2){
+	left: 670px;
+}
+#main_select_2>li:nth-child(3){
+	left: 690px;
+}
+
+._active{
+	background: yellow;
+}
+
+
+#slide-1{
+	/*height: 800px;*/
+	margin: 100px  0 0 0;
+	position: absolute;
+	top: 0;
+	width: 1348px;
+	text-align:center; 
+}
+#slide-1c {
+    width: 180px;
+    height: 35px;
+    background-color: #27afec;
+    border-radius: 30px;
+    margin: 30px 0 0 253px;
+    border: -20px 0 20px 0;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+
+/*各个section*/
+
+.main-introduction{
+	height: 585px;	
+	background-color:#FFF;	
+	}
+	      
+.main-achievement{
+	height: 425px;
+	background:url(../pic/achievement_bg.png) repeat #D9D9D9;
+	position: relative;
+	}
+	
+.main-member{
+	height: 585px;
+	background:url(../pic/member_bg.png) repeat #8B655B;	
+
+	}
+	
+.main-cooperation{
+	height: 1008px;
+	background-color:#ccc;	
+	}
+	
+.main-contact{
+	height: 459px;
+	background:url(../pic/contact_bg_top.png) repeat-x 0 0,url(../pic/contact_bg_bottom.png) repeat-x 0 bottom #5F53A0;
+
+	}
+
+
+.introduction-title{
+	height: 112px;
+	line-height: 112px;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+div.a_line{
+	display: inline-block;
+	height: 2px;
+	width: 113px;
+	border-top:5px;
+	border-bottom:2px; 
+	border-left:0px;  
+	border-right:0px;  
+	border-style: solid;
+	margin: 0 20px 5px 20px;
+}
+
+.introduction-card{
+	text-align: center;
+	font-size: 24px;
+}
+
+.intro-cardi{
+	cursor: pointer;
+	display: inline-block;
+	width: 340px;
+	height: 355px;
+	background-color:#89C997; 
+	margin: 0 27px;
+	padding-top: 35px;
+	font-size: 24px;
+	overflow: hidden;
+	white-space:nowrap;
+}
+.intro-cardi>i{font-size: 35px; color: #113241;
+}
+
+.intro-circle{
+	display: inline-block;
+	height: 125px;
+	width: 125px;
+	border:5px solid  #113241;
+	border-radius: 67.5px;
+	line-height: 120px;
+
+}
+
+.intro-circle>i{
+font-size: 90px;
+text-align: center;
+vertical-align: middle;
+color: #113241;
+}
+
+
+
+.intro-cardi p{
+	margin: 50px 0;
+}
+
+.intro-cardi .detail{
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+
+
+/*鼠标经过效果*/
+.intro-cardi:hover{
+	background-color: #61a870;
+	color:white;
+}
+
+.intro-cardi:hover i{
+	color: white;
+}
+
+.intro-cardi>i:hover{
+	color: red;
+}
+.intro-cardi:hover>div{
+	border-color: white;
+	height: 200px;
+	width: 200px;
+	border-radius: 105px;
+	line-height: 200px;
+	margin-top: -31.5px;
+	-webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+
+}
+.intro-cardi:hover p{
+	margin: 25px 0;
+}
+
+
+
+.achieve{
+	cursor: pointer;
+	height: 54px;
+	width: 6.433em;
+	background:url(../pic/achievement_title_bg.png) no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	font-size: 30px;
+	margin: 0 -2px;
+	line-height: 54px;
+	display: inline-block;
+}
+
+
+.achieve-title{
+	text-align: center;
+	font-size: 30px;
+	padding: 25px 0 40px;
+
+}
+
+.b-line{
+	width: 32%;	
+	margin-bottom: 9px;
+	background-color:#000;
+	height: 4px;
+	display: inline-block;
+}
+
+
+
+.achievement-list{
+	margin: ;
+	height: 265px;
+	line-height: 265px;
+	width: 80%;
+	margin-left: 10%;
+	overflow:hidden;
+	padding-left: 2%;
+	position: relative;
+}
+.achievement-list>ul{
+	width: 220%;
+	position: absolute;
+	left: 0;
+}
+.achievement-list>ul>li{
+	background-color:#7ECEF3;
+	width: 9%; 
+    height: 0;
+    padding-top: 9%;	
+    border-radius: 50%;
+	display: inline-block;
+	margin: 0 2% 0 0;
+	vertical-align:middle;
+
+}
+
+
+.member-title{
+	text-align: center;
+	font-size: 30px;
+	color: #FFF;
+	padding: 53px 0 28px;
+}
+
+.c-line{
+	width: 100px;	
+	margin: 25px 10px 0px;
+	background-color:#FFF;
+	height: 10px;
+	display: inline-block;
+}
+.c-line:hover{
+	background-color:#fff45c;
+
+
+}
+
+.member-list{
+	text-align: center;
+	padding: 15px 0 53px 0;
+}
+
+.member-i{
+	background-color:#8FC320;
+	height: 350px; 
+	width: 300px; 
+	display: inline-block;
+	margin: 0 50px;
+	color: #FFF;
+	font-size: 24px;
+	line-height: 34px;
+	position: relative;
+/*	overflow: hidden;
+*/}
+.member-i>img{
+	width: 100%;
+}
+
+
+.addmore{
+	display: none;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 35opx;	
+	background:rgba(0,0,0,0.64);
+	line-height: 350px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 151px;
+	color: #b68a8a;
+	font-weight: 900;
+}
+.member-i:hover>div{
+	display: block;
+	background:rgba(0,0,0,0.64);
+}
+
+.addmore>span:hover{
+	color: #FFF;
+}
+
+
+
+/*合作*/
+.cooperation-content1a{
+	
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -673px;
+    width: 100%;
+    height: 0;
+    border-bottom: 530px rgb(244,244,244) solid;
+    border-left: 675px rgb(204,204,204) solid;
+    border-right: 675px rgb(204,204,204) solid;
+    border-top: 530px rgb(163,163,163) solid;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    content: "";
+}
+
+/*加入*/
+.main-join{
+	position: absolute;
+	bottom: 300px;
+	height: 380px;
+	width: 1348px;
+}
+
+.mian-join{width: 700px;
+height: 500px;
+}
+.main-join i{
+font-size: 80px;
+color: red;
+cursor: pointer;
+text-align: center;
+/*font-weight: bold;*/
+}
+
+.main-join i:hover{
+font-size: 150px;
+color: red;
+/*font-weight: bold;*/
+}
+.main-join i>span{
+font-size: 40px;
+color: black;
+text-align: center;
+/*font-weight: bold;*/
+}
+#main-join1{
+	position: absolute;
+	color: red;
+	margin:  -230px 0 0 380px;
+}
+#main-join1>span{color: black;}
+#main-join2{
+  position: absolute;
+  color: black;
+  margin: -230px 0 0  820px;
+
+}
+#main-join3{
+	position: absolute;
+  color: black;
+  margin: -60px 0 0  360px;
+
+}
+#main-join4{
+	position: absolute;
+  color: black;
+  margin: -60px 0 0  850px;
+
+}
+
+
+
+
+/*contact*/
+.main-box{
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+.contact-content{ 
+	padding: 0px;
+    padding-top:0;
+    height:450px; 
+    /*background:url(../pic/contact_bg_bottom.png) repeat-x 0 bottom #5F53A0,repeat-x url(../pic/contact_bg_top.png) 0 92px;*/
+    background:url(../pic/contact_bg_top.png) 
+    repeat-x 0 0px,url(../pic/contact_bg_bottom.png) 
+    repeat-x 0 bottom #5F53A0;
+}
+ .box1{
+  margin:  38px 0 0 -125px;
+ }
+ .messege{
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -700px;
+}
+
+
+div.row{
+position: absolute;
+    width: 1000px;
+    height: 300px;
+    margin: 100px 0 0 -10px;
+}
+div.row label {
+    position: relative;
+    width: 500px;
+    height: 100px;
+    display: block;
+    padding-top: 0;
+    margin: 20px 0 0 230px;
+}
+@keyframes bigger {
+    from{
+        width: 100px;
+    }
+    to {
+        width: 400px;
+        height: 70px;
+    }
+}
+#liuyan{
+	height: 100px;
+	margin: -20px 0 0 0;
+}
+.message-button{
+	margin: 130px 0 0 -500px;
+}
+.phone-number {
+    width: 250px;
+    height: 200px;
+    left: 73%;
+    top: 67%;
+    position: absolute;
+    margin-top: -120px;
+}
+
+i.fa{
+   color: rgb(16,50,65);
+   font-size: 28px;
+   display: block;
+   margin-right: 10px;
+}
+
